@@ -1,0 +1,54 @@
+<!-- Add to the head section -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
+<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pacific Trails :: Reservations</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="pacific.css">
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+  <h1>Pacific Trails Resort</h1>
+</header>
+<nav>
+    <a href="index.html">Home</a> &nbsp;
+    <a href="yurts.html">Yurts</a> &nbsp;
+    <a href="activities.html">Activities</a> &nbsp;
+    <a href="reservations.html">Reservations</a>
+</nav>
+<main>
+    <h2><b>Reservations at Pacific Trails</h2></b>
+    <h3>Contact Us Today!</h3>
+    <h4>Required fields are marked with an asterisk *</h4>
+<form name="order" method="post" id="order" action="http://webdevbasics.net/scripts/pacific.php">
+* First Name: <input type="text" name="fname" id="fname"><br><br>
+ * Last Name: <input type="text" name="lname" id="lname"><br><br>
+     * Email: <input type="text" name="email" id="email"><br></br>
+       Phone: <input type="text" name="phone" id="phone"><br><br>
+Arrival Date: <input type="date" name="arrival date" id="arrival date"><br><br>
+      Nights: <input type="number" name="nights" id="nights" min="1" max="30"><br><br>
+  * Comments: <textarea name="cm" id="cm" cols="40" rows="4">
+    Multi
+    lane
+    textarea</textarea><br><br>
+    <input type="submit"><br><br>
+</form>    
+<div id="contact">
+    <span class="resort">Pacific Trails Resort</span><br>
+    12010 Pacific Trails Road<br>
+    Zephyr, CA 95555<br>
+    
+    888-555-5555<br>
+    </div>
+</main>
+<footer>
+    Copyright &copy; 2016 Pacific Trails Resort<br>
+  <a href="rreeves004@my.hennepintech.edu">rreeves004@my.hennepintech.edu</a><br>
+</footer>
+    </div>
+</body>
+</html>
